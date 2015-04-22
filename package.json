@@ -1,0 +1,28 @@
+{
+  "name": "loremtools-photo",
+  "version": "1.0.0",
+  "description": "Placeholder Photo/Image Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loremtools/loremtools-photo"
+  },
+  "keywords": [
+    "Placeholder",
+    "Images",
+    "Flickr",
+    "Free",
+    "Images",
+    "Lorem",
+    "Demonstration"
+  ],
+  "author": "pnhung177",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loremtools/loremtools-photo/issues"
+  },
+  "homepage": "https://github.com/loremtools/loremtools-photo"
+}
