@@ -2,7 +2,7 @@
   "name": "loremtools-photo",
   "version": "1.0.0",
   "description": "Placeholder Photo/Image Service",
-  "main": "index.js",
+  "main": "lib/bootstrap.js",
   "scripts": {
     "test": "test"
   },
@@ -25,11 +25,11 @@
     "url": "https://github.com/loremtools/loremtools-photo/issues"
   },
   "homepage": "https://github.com/loremtools/loremtools-photo",
-  "main": "lib/bootstrap.js",
   "dependencies": {
     "express": "^4.12.3",
     "http-proxy": "^1.11.0",
-    "querystring": "^0.2.0"
+    "querystring": "^0.2.0",
+    "winston": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
