@@ -3,3 +3,4 @@ node_modules/
 debug.log
 error.log
 npm-*.log
+.cache/
