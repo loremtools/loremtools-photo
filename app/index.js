@@ -1,4 +1,6 @@
-var targetHost = 'lorempixel.com';
+var proxifyList = [
+  { host: 'lorempixel.com', port: 80, path: '/%width%/%height%/'}
+];
 var serverPort = 8091;
 
 var logger = require('../lib/logger');
@@ -7,8 +9,8 @@ var express = require('express');
 var app = express();
 
 app.use('/loremphoto', require('../lib/bootstrap.js')({
-  targetHost: targetHost,
-  urlRoot : 'loremphoto'
+  urlRoot : 'loremphoto',
+  proxifyList: proxifyList
 }), function(req, res, next) {
   return res.render('loremphoto', { });
 });
