@@ -28,7 +28,9 @@
   "dependencies": {
     "express": "^4.12.3",
     "http-proxy": "^1.11.0",
+    "lodash": "^3.7.0",
     "querystring": "^0.2.0",
+    "request": "^2.55.0",
     "winston": "^1.0.0"
   },
   "devDependencies": {
