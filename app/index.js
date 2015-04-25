@@ -1,7 +1,7 @@
 var proxifyList = [
   { host: 'lorempixel.com', port: 80, path: '/%width%/%height%/'}
 ];
-var serverPort = 8091;
+var serverPort = 7700;
 
 var logger = require('../lib/logger');
 var express = require('express');
